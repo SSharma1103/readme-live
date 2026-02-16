@@ -1,6 +1,6 @@
 {
   "name": "@shivamsharma11/readme-live",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight CLI for 1:1 GitHub-flavored README previews with live-reload",
   "main": "dist/src/renderer.js",
   "types": "dist/src/renderer.d.ts",
@@ -44,12 +44,11 @@
     "typescript": "^5.9.3"
   },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/SSharma1103/readme-live.git"
-},
-"bugs": {
-  "url": "https://github.com/SSharma1103/readme-live/issues"
-},
-"homepage": "https://github.com/SSharma1103/readme-live#readme"
-
+    "type": "git",
+    "url": "https://github.com/SSharma1103/readme-live.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SSharma1103/readme-live/issues"
+  },
+  "homepage": "https://github.com/SSharma1103/readme-live#readme"
 }

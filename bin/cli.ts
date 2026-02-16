@@ -61,8 +61,8 @@ program
 
     app.listen(webPort, () => {
       console.log('\n-------------------------------------------');
-      console.log(`🚀 Preview: http://localhost:${webPort}`);
-      console.log(`🛡️  Watchman guarding: ${file}`);
+      console.log(` Preview: http://localhost:${webPort}`);
+      console.log(`  Watchman guarding: ${file}`);
       if (githubToken) console.log(`🔑 Using GitHub Token for increased rate limits.`);
       console.log('-------------------------------------------\n');
     });

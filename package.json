@@ -1,6 +1,6 @@
 {
   "name": "@shivamsharma11/readme-live",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A lightweight CLI for 1:1 GitHub-flavored README previews with live-reload",
   "main": "dist/src/renderer.js",
   "types": "dist/src/renderer.d.ts",

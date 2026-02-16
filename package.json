@@ -1,0 +1,55 @@
+{
+  "name": "@shivamsharma11/readme-live",
+  "version": "1.0.1",
+  "description": "A lightweight CLI for 1:1 GitHub-flavored README previews with live-reload",
+  "main": "dist/src/renderer.js",
+  "types": "dist/src/renderer.d.ts",
+  "type": "module",
+  "bin": {
+    "readme-live": "dist/bin/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npx rimraf dist && tsc",
+    "dev": "tsx bin/cli.ts",
+    "start": "node dist/bin/cli.js",
+    "prepublishOnly": "npm run build",
+    "pkg:fix": "npm pkg fix"
+  },
+  "keywords": [
+    "markdown",
+    "github",
+    "preview",
+    "live-reload",
+    "cli"
+  ],
+  "author": "Shivam Sharma",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^5.0.0",
+    "commander": "^14.0.3",
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2",
+    "ws": "^8.19.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.2.3",
+    "@types/node-fetch": "^2.6.13",
+    "@types/ws": "^8.18.1",
+    "rimraf": "^6.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/SSharma1103/readme-live.git"
+},
+"bugs": {
+  "url": "https://github.com/SSharma1103/readme-live/issues"
+},
+"homepage": "https://github.com/SSharma1103/readme-live#readme"
+
+}

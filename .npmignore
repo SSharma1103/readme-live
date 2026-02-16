@@ -1,0 +1,12 @@
+# Source files
+src/
+bin/**/*.ts
+tsconfig.json
+
+# Tooling/Config
+.vscode/
+node_modules/
+*.log
+
+# Test files (if any)
+tests/
